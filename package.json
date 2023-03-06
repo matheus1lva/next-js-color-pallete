@@ -1,0 +1,25 @@
+{
+  "name": "color-picker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "create-migration": "knex migrate:make",
+    "run-migrations": "knex migrate:latest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "formik": "^2.2.9",
+    "knex": "^0.21.17",
+    "next": "12",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-query": "^3.39.3",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "typescript": "4.9.5"
+  }
+}
